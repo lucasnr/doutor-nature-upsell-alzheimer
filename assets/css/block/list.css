@@ -1,0 +1,26 @@
+.list li + li {
+  margin-top: 5.2rem;
+}
+
+.list img {
+  border-radius: 50%;
+  height: 18.6rem;
+  margin-bottom: 3.2rem;
+  width: 18.6rem;
+}
+
+.list .title {
+  color: #355573;
+  font-size: 3.5rem;
+}
+
+.list .subtitle {
+  font-size: 2.5rem;
+}
+
+.list p {
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin-bottom: 0px;
+  margin-top: 2.2rem;
+}

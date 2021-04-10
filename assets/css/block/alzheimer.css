@@ -2,14 +2,12 @@
   background-image: url(../../img/title-mark.svg);
   background-size: 29rem;
   background-position-x: 60%;
-  background-position-y: 0.5rem;
+  background-position-y: 1.25rem;
   background-repeat: no-repeat;
 }
 
 .alzheimer p {
   font-size: 2.2rem;
-  font-weight: 500;
-  line-height: 1.75;
 }
 
 .alzheimer .alzheimer-whatis p strong {

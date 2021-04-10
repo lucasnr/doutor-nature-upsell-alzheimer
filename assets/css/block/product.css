@@ -1,0 +1,21 @@
+.product .title {
+  color: #364453 !important;
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.5rem;
+  margin-bottom: 0px;
+}
+
+.product .product-image {
+  margin-bottom: 4rem;
+  margin-top: 5.2rem;
+}
+
+.product .product-description {
+  color: #364453 !important;
+  font-size: 2rem;
+  margin-bottom: 0px;
+}
+
+.product .product-description strong {
+  font-style: italic;
+}
