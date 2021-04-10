@@ -1,0 +1,29 @@
+.banner {
+  background-color: rgba(235, 240, 248, 0.5);
+  margin-top: 2.4rem;
+  padding-bottom: 5.5rem;
+  padding-top: 3rem;
+}
+
+.banner .banner-title {
+  color: #f6694c;
+  font-size: 2.2rem;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 0px;
+}
+
+.banner .banner-title strong {
+  font-size: 2.4rem;
+}
+
+.banner ul li {
+  color: #5e6872;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.banner ul li + li {
+  margin-top: 3.2rem;
+}
