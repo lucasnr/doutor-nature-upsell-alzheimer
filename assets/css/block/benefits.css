@@ -1,0 +1,21 @@
+.benefits ul li {
+  display: flex;
+  font-size: 2rem;
+  line-height: 1.75;
+  margin-top: 5.6rem;
+}
+
+.benefits ul li::before {
+  background-image: url(../../img/checkbox.svg);
+  background-size: cover;
+  content: ' ';
+  display: block;
+  height: 2.4rem;
+  margin-right: 1.5rem;
+  margin-top: 1rem;
+  width: 2.4rem;
+}
+
+.benefits ul li strong {
+  font-size: 2.2rem;
+}

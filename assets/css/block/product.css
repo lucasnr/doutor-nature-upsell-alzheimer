@@ -8,6 +8,15 @@
 .product .product-image {
   margin-bottom: 4rem;
   margin-top: 5.2rem;
+  width: 100%;
+}
+
+.product .product-language {
+  color: #e60404;
+  display: block;
+  font-size: 1.8rem;
+  font-style: italic;
+  margin-bottom: 4.6rem;
 }
 
 .product .product-description {
@@ -18,4 +27,9 @@
 
 .product .product-description strong {
   font-style: italic;
+}
+
+.product .benefits ul li::before {
+  background-image: url(../../img/check.svg);
+  height: 2rem;
 }
