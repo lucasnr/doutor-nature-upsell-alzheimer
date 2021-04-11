@@ -33,3 +33,31 @@
   background-image: url(../../img/check.svg);
   height: 2rem;
 }
+
+.product .product-button {
+  background-color: #ff9206;
+  border-radius: 0.8rem;
+  color: #fff;
+  display: block;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.75;
+  margin-top: 4.4rem;
+  padding: 2.2rem;
+  text-decoration: none !important;
+  transition: opacity 0.3s ease;
+}
+
+.product .product-button strong {
+  font-size: 4.8rem;
+}
+
+.product .product-button.product-button-alt {
+  background-color: #8d8f92;
+  font-size: 1.7rem;
+  font-weight: 300;
+}
+
+.product .product-button:hover {
+  opacity: 0.7;
+}

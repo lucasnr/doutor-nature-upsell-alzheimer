@@ -1,0 +1,22 @@
+.details .benefits {
+  margin: auto;
+  max-width: 37rem;
+}
+
+.details .benefits ul li {
+  color: #5e6872;
+  font-size: 1.8rem;
+}
+
+.details .benefits ul li strong {
+  color: #364453;
+}
+
+.details .benefits ul li .dot {
+  color: #5e6872;
+  font-weight: 900;
+}
+
+.details .product {
+  margin-top: 6.4rem;
+}

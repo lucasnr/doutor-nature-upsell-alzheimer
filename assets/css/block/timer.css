@@ -1,34 +1,63 @@
-.timer-title {
-  font-size: 1.375rem;
+.timer .title:first-child,
+.timer .subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.8rem;
+}
+
+.timer .old-price {
+  font-size: 5rem;
+}
+
+.timer .timer-description p {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.timer .subtitle {
+  font-size: 2.2rem;
+}
+
+.timer .price {
+  font-size: 8rem;
   font-weight: 700;
-  text-transform: uppercase;
+  margin-bottom: 6.8rem;
+  margin-top: 6rem;
+}
+
+.timer .price small {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: -1rem;
+}
+
+.timer-title {
+  color: #f60a0a;
+  font-size: 1.8rem;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 2.5rem;
 }
 
 .timer-content {
   align-items: center;
-  color: red;
+  color: #f60a0a;
   display: flex;
-  justify-content: space-around;
-  font-size: 2.5rem;
+  font-size: 5rem;
   font-weight: 700;
+  justify-content: space-around;
   margin: auto;
-  max-width: 21.875rem;
+  margin-bottom: 6.8rem;
+  max-width: 35rem;
 }
 
 .timer-content .divisor {
-  margin-bottom: 2.125rem;
+  margin-bottom: 3.4rem;
 }
 
 .timer-content .text {
   align-items: center;
   display: flex;
-  font-size: 1.2rem;
-  font-weight: 500;
+  font-size: 1.8rem;
+  font-weight: 400;
   justify-content: space-around;
-}
-
-@media (min-width: 576px) {
-  .timer-content {
-    font-size: 3.4rem;
-  }
 }
