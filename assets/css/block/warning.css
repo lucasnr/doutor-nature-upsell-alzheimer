@@ -11,6 +11,8 @@
 .warning .warning-header {
   border: 0.1rem solid #707070;
   border-radius: 0.8rem;
+  margin: auto;
+  max-width: 52rem;
   padding-bottom: 5.5rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -54,4 +56,11 @@
   font-size: 2.5rem;
   height: 5.4rem;
   justify-content: center;
+}
+
+@media (min-width: 470px) {
+  .warning .warning-highlight {
+    display: inline-flex;
+    padding: 0px 2rem;
+  }
 }

@@ -5,7 +5,23 @@
 }
 
 .timer .old-price {
+  display: inline-flex;
   font-size: 5rem;
+  position: relative;
+}
+
+.timer .old-price::before {
+  background-image: url(../../img/line-across.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: '';
+  display: block;
+  height: 2.7rem;
+  left: 54%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  width: 31rem;
 }
 
 .timer .timer-description p {

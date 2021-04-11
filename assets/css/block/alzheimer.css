@@ -1,7 +1,21 @@
+.alzheimer::before {
+  background-color: #fff;
+  content: '';
+  height: 50rem;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.alzheimer * {
+  position: relative;
+}
+
 .alzheimer .title {
   background-image: url(../../img/title-mark.svg);
   background-size: 29rem;
-  background-position-x: 60%;
+  background-position-x: 50%;
   background-position-y: 1.25rem;
   background-repeat: no-repeat;
 }

@@ -1,3 +1,9 @@
+.benefits ul {
+  display: inline-flex;
+  flex-direction: column;
+  margin: auto !important;
+}
+
 .benefits ul li {
   display: flex;
   font-size: 2rem;
@@ -11,7 +17,7 @@
   content: ' ';
   display: block;
   height: 2.4rem;
-  margin-right: 1.5rem;
+  margin-right: 1.4rem;
   margin-top: 1rem;
   width: 2.4rem;
 }

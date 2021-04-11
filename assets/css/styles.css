@@ -48,7 +48,7 @@ strong {
 .triangle::after {
   border-color: #fff transparent transparent transparent;
   border-style: solid;
-  border-width: 3.2rem 1rem 0 1rem;
+  border-width: 3rem 1.75rem 0 1.75rem;
   content: '';
   height: 0;
   left: 50%;
@@ -57,6 +57,10 @@ strong {
   transform: translateX(-50%);
   width: 0;
   z-index: 99;
+}
+
+.triangle.triangle-alt::after {
+  border-top-color: #ebf0f8;
 }
 
 p {
@@ -70,12 +74,12 @@ p strong {
 }
 
 img {
-  max-width: 60rem !important;
+  max-width: 54rem !important;
 }
 
-@media (max-width: 423px) {
-  .container {
-    padding: 0px;
+@media (max-width: 429px) {
+  html {
+    font-size: 2.125vw;
   }
 }
 

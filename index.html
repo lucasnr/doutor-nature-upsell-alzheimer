@@ -27,80 +27,84 @@
     <link rel="stylesheet" href="./assets/css/block/details.css" />
   </head>
   <body>
-    <div class="container top-container">
-      <aside class="topbar d-flex align-items-center justify-content-center">
-        <img
-          src="./assets/img/logo.svg"
-          alt="Logomarca Doutor Nature"
-          class="topbar-logo img-fluid"
-        />
-      </aside>
+    <div class="top-wrapper">
+      <div class="container">
+        <aside class="topbar d-flex align-items-center justify-content-center">
+          <img
+            src="./assets/img/logo.svg"
+            alt="Logomarca Doutor Nature"
+            class="topbar-logo img-fluid"
+          />
+        </aside>
 
-      <nav class="steps">
-        <div class="container">
-          <div class="steps d-flex align-items-stretch">
-            <div class="step">
-              <span>Pedido</span>
-            </div>
-            <div class="step">
-              <span>Compra<br class="d-block" />efetuada</span>
-            </div>
-            <div class="step active">
-              <span>Você está aqui</span>
-            </div>
-            <div class="step">
-              <span>Acesso ao<br class="d-block" />produto</span>
+        <nav class="steps">
+          <div class="container">
+            <div class="steps d-flex align-items-stretch">
+              <div class="step">
+                <span>Pedido</span>
+              </div>
+              <div class="step">
+                <span>Compra<br class="d-block" />efetuada</span>
+              </div>
+              <div class="step active">
+                <span>Você está aqui</span>
+              </div>
+              <div class="step">
+                <span>Acesso ao<br class="d-block" />produto</span>
+              </div>
             </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </div>
 
     <main class="text-center">
-      <div class="bg-white d-flex flex-column px-3">
-        <header class="banner">
-          <div class="container px-3">
-            <h2 class="banner-title">
-              Depois dos 60 anos, seu cérebro
-              <br />
-              pode encolher 1% a cada ano
-            </h2>
+      <div class="bg-white">
+        <div class="container px-4 d-flex flex-column">
+          <header class="banner">
+            <div class="d-flex flex-column px-3">
+              <h2 class="banner-title">
+                Depois dos 60 anos, seu cérebro
+                <br />
+                pode encolher 1% a cada ano
+              </h2>
 
-            <div class="d-flex flex-column my-5 py-2">
-              <img
-                src="./assets/img/cerebro.png"
-                alt="Cérebro Jovem e Cérebro Envelhecido"
-                class="img-fluid w-100"
-              />
+              <div class="d-flex flex-column align-items-center my-5 py-2">
+                <img
+                  src="./assets/img/cerebro.png"
+                  alt="Cérebro Jovem e Cérebro Envelhecido"
+                  class="img-fluid w-100"
+                />
+              </div>
+
+              <h2 class="banner-title font-weight-medium">
+                Então, surgem os
+                <br />
+                <strong class="text-uppercase">"apagões de memória"...</strong>
+              </h2>
+
+              <footer class="text-left mt-5 pl-4">
+                <ul class="list-unstyled m-0">
+                  <li>
+                    <strong>Trocamos nomes</strong>
+                    de familiares...
+                  </li>
+                  <li>
+                    <strong>Sentimos dificuldade</strong>
+                    para nos concetrar numa conversa...
+                  </li>
+                  <li>
+                    <strong>Não lembramos</strong>
+                    de onde deixamos as chaves de casa...
+                  </li>
+                </ul>
+              </footer>
             </div>
-
-            <h2 class="banner-title font-weight-medium">
-              Então, surgem os
-              <br />
-              <strong class="text-uppercase">"apagões de memória"...</strong>
-            </h2>
-
-            <footer class="text-left mt-5 pl-4">
-              <ul class="list-unstyled m-0">
-                <li>
-                  <strong>Trocamos nomes</strong>
-                  de familiares...
-                </li>
-                <li>
-                  <strong>Sentimos dificuldade</strong>
-                  para nos concetrar numa conversa...
-                </li>
-                <li>
-                  <strong>Não lembramos</strong>
-                  de onde deixamos as chaves de casa...
-                </li>
-              </ul>
-            </footer>
-          </div>
-        </header>
+          </header>
+        </div>
       </div>
 
-      <section class="alzheimer pb-0">
+      <section class="alzheimer pb-0 position-relative">
         <div class="container">
           <p class="mb-5">
             O perigo, é que essas
@@ -158,7 +162,7 @@
             <li>Aumentar o poder cerebral...</li>
             <li>
               E recuperar a mente "jovem"
-              <br />
+              <br class="d-lg-none" />
               dos seus vinte e poucos anos.
             </li>
           </ul>
@@ -344,7 +348,7 @@
       </section>
 
       <section class="benefits">
-        <div class="container">
+        <div class="container pl-5">
           <h2 class="title">
             Com este protocolo
             <br />
@@ -358,7 +362,9 @@
                 <br />
                 para ficar ligado durante as
                 <br />
-                conversas... concentrado enquanto
+                <span class="text-nowrap">
+                  conversas... concentrado enquanto
+                </span>
                 <br />
                 lê o jornal... e até enquanto dirige
               </span>
@@ -420,7 +426,7 @@
         </div>
       </section>
 
-      <section class="bg-white">
+      <section class="bg-white triangle">
         <div class="container">
           <div class="product">
             <h3 class="title">
@@ -461,9 +467,14 @@
                     <br />
                     passo simples e completo de
                     <br />
-                    como produzir facilmente a
+                    <span class="highlight">
+                      <span>como produzir facilmente a</span>
+                    </span>
                     <br />
-                    "Pílula da Inteligência" que
+                    <span class="highlight">
+                      <span>"Pílula da Inteligência"</span>
+                    </span>
+                    que
                     <br />
                     desperta o poder do seu
                     <br />
@@ -513,14 +524,16 @@
             <br />
             soma de 10 anos
             <br />
-            de pesquisa do Dr. Rafael Freitas.
+            de pesquisa do Dr.
+            <br />
+            Rafael Freitas.
           </h2>
 
           <div class="d-flex justify-content-center my-5 pb-4 pt-3">
             <img
               src="./assets/img/rafael-freitas.png"
               alt="Rafael Freitas"
-              class="img-fluid"
+              class="img-fluid w-100"
             />
           </div>
 
@@ -540,7 +553,7 @@
         </div>
       </section>
 
-      <section class="timer bg-white">
+      <section class="timer bg-white triangle">
         <div class="container">
           <h3 class="title">
             Agora você tem uma
@@ -657,9 +670,14 @@
                     <br />
                     passo simples e completo de
                     <br />
-                    como produzir facilmente a
+                    <span class="highlight">
+                      <span>como produzir facilmente a</span>
+                    </span>
                     <br />
-                    "Pílula da Inteligência" que
+                    <span class="highlight">
+                      <span>"Pílula da Inteligência"</span>
+                    </span>
+                    que
                     <br />
                     desperta o poder do seu
                     <br />
@@ -721,7 +739,7 @@
         </div>
       </section>
 
-      <section class="details">
+      <section class="details triangle triangle-alt">
         <div class="container">
           <h3 class="title">
             Obtenha todos
@@ -735,7 +753,7 @@
             memória
           </h3>
 
-          <p class="my-5 py-4 font-weight-normal">Isso inclui:</p>
+          <p class="mt-5 pt-4 mb-0 font-weight-normal">Isso inclui:</p>
 
           <div class="benefits">
             <ul class="list-unstyled m-0 text-left">
@@ -917,7 +935,7 @@
               <br />
               decidir, por qualquer motivo, que o
               <br />
-              Protocolo n~]ao é o ideal para você,
+              Protocolo não é o ideal para você,
               <br />
               basta ligar para
               <span class="font-weight-bold">
@@ -971,9 +989,14 @@
                     <br />
                     passo simples e completo de
                     <br />
-                    como produzir facilmente a
+                    <span class="highlight">
+                      <span>como produzir facilmente a</span>
+                    </span>
                     <br />
-                    "Pílula da Inteligência" que
+                    <span class="highlight">
+                      <span>"Pílula da Inteligência"</span>
+                    </span>
+                    que
                     <br />
                     desperta o poder do seu
                     <br />

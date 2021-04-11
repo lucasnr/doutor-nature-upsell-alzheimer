@@ -1,3 +1,7 @@
+.top-wrapper {
+  background-color: #fff;
+}
+
 .topbar {
   background-color: #f2f3f7;
   height: 4.8rem;
@@ -9,8 +13,14 @@
   width: 14.2rem;
 }
 
+@media (max-width: 991px) {
+  .top-wrapper .container {
+    padding: 0px;
+  }
+}
+
 @media (min-width: 768px) {
   .topbar .topbar-logo {
-    width: 25.6rem;
+    width: 20.2rem;
   }
 }
